@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs and local data
+*.log
+*.zip
+*.cfg
+*.bak
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+python_env/
+bin/
+lib/
+lib64/
+include/
+
+# Secrets and config
+config/secrets.env
+.env.*
+
+# Editable install metadata
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Testing and coverage
+.mypy_cache/
+.pytest_cache/
+coverage.*
+htmlcov/
+.cache/
+.tox/
+
+# Output directories
+logs/
+configs/
+output/
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
